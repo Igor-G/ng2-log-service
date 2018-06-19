@@ -1,5 +1,3 @@
-import { ILogEvent } from './ng2-log-service';
-
 export function namespaceIsValid(namespace: string) {
     if(namespace === null) {
         return false;
