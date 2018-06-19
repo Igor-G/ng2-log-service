@@ -8,7 +8,7 @@ Thumbs.db
 .DS_Store
 
 # Ignored files
-dist/
+dist/node_modules/
 coverage/
 *.map
 *.d.ts
