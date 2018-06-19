@@ -1,4 +1,4 @@
-import { LogLevel, ALL } from '../ng2-log-service';
+import { LogLevel, ALL } from '../log-types';
 var ExtensionListener = /** @class */ (function () {
     function ExtensionListener() {
         this.namespace = ALL;

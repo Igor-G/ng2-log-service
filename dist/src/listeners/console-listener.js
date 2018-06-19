@@ -1,4 +1,4 @@
-import { LogLevel, ALL } from '../ng2-log-service';
+import { LogLevel, ALL } from '../log-types';
 var ConsoleListenerConfig = /** @class */ (function () {
     function ConsoleListenerConfig() {
         this.prefixLogsWithNamespace = true;
@@ -9,14 +9,14 @@ var ConsoleListenerConfig = /** @class */ (function () {
     return ConsoleListenerConfig;
 }());
 export { ConsoleListenerConfig };
-var ɵ0 = function () {
+export function empty() {
     return "";
-};
+}
 var defaultConfig = {
     prefixLogsWithNamespace: true,
     namespaceWhiteList: [ALL],
     enabled: true,
-    prefix: ɵ0,
+    prefix: empty,
     enablePrefix: true,
     logLevel: LogLevel.All
 };
@@ -99,5 +99,4 @@ var ConsoleListener = /** @class */ (function () {
     return ConsoleListener;
 }());
 export { ConsoleListener };
-export { ɵ0 };
 //# sourceMappingURL=console-listener.js.map

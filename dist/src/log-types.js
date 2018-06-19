@@ -1,4 +1,5 @@
-import { ALL } from './log-observer.service';
+export var FUZZY_CHARACTER = '*';
+export var ALL = FUZZY_CHARACTER;
 export var LogLevel;
 (function (LogLevel) {
     LogLevel[LogLevel["All"] = 1] = "All";
