@@ -1,10 +1,9 @@
 import { Injectable, Inject, InjectionToken } from '@angular/core';
-import { ILogObserver, ILogEvent, ILogListener, LogLevel, namespaceIsValid } from './ng2-log-service';
+import { ILogObserver, ILogEvent, ILogListener, LogLevel, namespaceIsValid, ALL, FUZZY_CHARACTER } from './ng2-log-service';
 
-let FUZZY_CHARACTER: string = '*';
 let INDEX_NOT_FOUND = -1;
 
-export let ALL: string = FUZZY_CHARACTER;
+
 export let LOG_LISTENER = new InjectionToken<ILogListener[]>('LogListener');
 
 @Injectable()

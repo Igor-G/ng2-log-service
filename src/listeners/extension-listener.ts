@@ -1,4 +1,4 @@
-import {  ILogListener, ILogMessage, LogLevel, ALL } from '../ng2-log-service';
+import {  ILogListener, ILogMessage, LogLevel, ALL } from '../log-types';
 
 export class ExtensionListener implements ILogListener {
 

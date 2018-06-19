@@ -1,4 +1,5 @@
-import { ALL } from './log-observer.service';
+export let FUZZY_CHARACTER: string = '*';
+export let ALL: string = FUZZY_CHARACTER;
 
 export enum LogLevel {
   All = 1,
