@@ -13,13 +13,15 @@ export class ConsoleListenerConfig {
     enablePrefix: boolean = false;
 }
 
+export function empty() {
+    return "";
+}
+
 let defaultConfig = {
     prefixLogsWithNamespace: true,
     namespaceWhiteList: [ALL],
     enabled: true,
-    prefix: () => {
-        return "";
-    },
+    prefix: empty,
     enablePrefix: true,
     logLevel: LogLevel.All
 }
