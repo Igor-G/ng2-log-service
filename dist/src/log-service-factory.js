@@ -1,6 +1,6 @@
 import { LogService } from './log.service';
-import { LogObserverService } from './ng2-log-service';
 import { Injectable } from '@angular/core';
+import { LogObserverService } from './log-observer.service';
 var LogServiceFactory = /** @class */ (function () {
     function LogServiceFactory(logObserver) {
         this.logObserver = logObserver;

@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { LogObserverService } from './ng2-log-service';
+import { LogObserverService } from './log-observer.service';
 
 @NgModule({
   imports: [

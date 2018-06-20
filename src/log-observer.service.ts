@@ -1,5 +1,6 @@
 import { Injectable, Inject, InjectionToken } from '@angular/core';
-import { ILogObserver, ILogEvent, ILogListener, LogLevel, namespaceIsValid, ALL, FUZZY_CHARACTER } from './ng2-log-service';
+import { ALL, FUZZY_CHARACTER, ILogEvent, ILogListener, ILogObserver, LogLevel } from './log-types';
+import { namespaceIsValid } from './log-helpers';
 
 let INDEX_NOT_FOUND = -1;
 

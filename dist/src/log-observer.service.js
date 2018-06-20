@@ -1,5 +1,6 @@
 import { Injectable, Inject, InjectionToken } from '@angular/core';
-import { namespaceIsValid, ALL, FUZZY_CHARACTER } from './ng2-log-service';
+import { ALL, FUZZY_CHARACTER } from './log-types';
+import { namespaceIsValid } from './log-helpers';
 var INDEX_NOT_FOUND = -1;
 export var LOG_LISTENER = new InjectionToken('LogListener');
 var LogObserverService = /** @class */ (function () {

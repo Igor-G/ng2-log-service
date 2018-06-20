@@ -1,5 +1,6 @@
-import { ILog, ILogEvent, LogObserverService, LogLevel } from './ng2-log-service';
 import { Injectable } from '@angular/core';
+import { LogObserverService } from './log-observer.service';
+import { ILog, ILogEvent, LogLevel } from './log-types';
 
 @Injectable()
 export class LogService implements ILog {
